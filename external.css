@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: darkgray;
+    font-family: 'Open Sans', sans-serif;
+}
+.container{
+    max-width: 1000px;
+    background-color: #C9E7E5;
+    margin: 0 auto;
+    padding: 20px;
+}
+.profile{
+    height: 120px;
+    width: 100px;
+    border: 3px whitesmoke solid;
+    border-radius: 50%;
+    float: left;
+}
+.bio{
+    float: left;
+    padding: 30px;
+}
+.contact{
+    float:right;
+    padding: 30px;
+}
+.contact a{
+    text-decoration: none;
+    color: teal;
+    font-weight: bold;
+}
+.contact a:hover{
+    text-decoration: underline;
+    color:crimson;
+}
+h1,h2,h3,h4,h5,h6{
+    color: rgba(63, 63, 158, 0.747);
+}
+.div-clear{
+    clear: both;
+}
+hr{
+    border: 3px black solid;
+    width: 100%;
+    margin: 20px auto;
+    border-bottom: none;
+}
+/*---------------------
+personal section start
+---------------------*/
+#personal-section{
+
+}
+.content{
+    margin-bottom: 30px;
+}
+.left{
+    width: 30%;
+    float: left;
+}
+.right{
+    width: 50%;
+    float: right;
+}
+.common{
+    width: 100%;
+    border: 1px black solid;
+    border-bottom: none;
+    margin: 20px auto;
+}
+/*---------------------
+education section start
+---------------------*/
+.edu-left{
+    float: left;
+    width: 48%;
+}
+.edu-right{
+    float: right;
+    width: 48%;
+}
+/*---------------------
+footer section start
+---------------------*/
+.last{
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+}
+.last a{
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+}
+.last p{
+    color: white;
+    margin-top: 20px;
+}
+
